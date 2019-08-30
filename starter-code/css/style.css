@@ -25,9 +25,12 @@ input {
 }
 
 .btn-success {
+    display: flex;
     color: #fff;
     background-color: #5cb85c;
     border-color: #4cae4c;
+    justify-content: center;
+    align-content: center;
 }
 
 .btn-delete {
@@ -38,4 +41,17 @@ input {
 
 .quantity {
   margin: 0 5px;
+}
+
+#wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  margin: 1em;
+}
+
+#headerone{
+  display: flex;
+  justify-content: center;
+  margin: 1em;
 }
