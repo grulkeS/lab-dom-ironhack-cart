@@ -15,29 +15,133 @@
     <h1>Ironhack Merchandising Shop</h1>
   </div>
   
-  
-  <div id = "wrapper">
+  <div id = "cart">
+  <div class = "product">
     
-    <div>
+    <div class = "productName">
       <span>IronBubble-head</span>
     </div>
-    <div id = "productPrice">
-      <span class = "productPrice">$25.00</span>
+    <div>
+      <span class = "productPrice">$5.00</span>
     </div>
-    <div id = "qty"> 
-      <label class = "quantity">QTY</label>
-      <input type="number" id = "input" value = "8"></input>
+    <div class = "productQuantity"> 
+      <label class = "classLabel">QTY</label>
+      <input type="number" class = "inputValue" min = "0"></input>
     </div>
     <div>
-      <span id = "totalPrice">$0.00</span>
+      <span class = "totalPrice">$0.00</span>
     </div>
     <div>
-      <button class = "btn-delete">Delete</button>
+      <button class = "btn, reduceProductQuantity" >Delete</button>
     </div>
     
   </div>
-  <div>
-    <button class = "btn-success" id = "btn-success">Calculate Prices</button>
+  <div class = "product">
+    
+    <div class = "productName">
+      <span>IronBubble-head</span>
+    </div>
+    <div>
+      <span class = "productPrice">$10.00</span>
+    </div>
+    <div class = "productQuantity"> 
+      <label class = "classLabel">QTY</label>
+      <input type="number" class = "inputValue" min = "0"></input>
+    </div>
+    <div>
+      <span class = "totalPrice">$0.00</span>
+    </div>
+    <div>
+      <button class = "btn, reduceProductQuantity" >Delete</button>
+    </div>
+    
+  </div>
+  <div class = "product">
+    
+    <div class = "productName">
+      <span>IronBubble-head</span>
+    </div>
+    <div>
+      <span class = "productPrice">$15.00</span>
+    </div>
+    <div class = "productQuantity"> 
+      <label class = "classLabel">QTY</label>
+      <input type="number" class = "inputValue" min = "0"></input>
+    </div>
+    <div>
+      <span class = "totalPrice">$0.00</span>
+    </div>
+    <div>
+      <button class = "btn, reduceProductQuantity" >Delete</button>
+    </div>
+    
+  </div>
+  <div class = "product">
+    
+    <div class = "productName">
+      <span>IronBubble-head</span>
+    </div>
+    <div>
+      <span class = "productPrice">$20.00</span>
+    </div>
+    <div class = "productQuantity"> 
+      <label class = "classLabel">QTY</label>
+      <input type="number" class = "inputValue" min = "0"></input>
+    </div>
+    <div>
+      <span class = "totalPrice">$0.00</span>
+    </div>
+    <div>
+      <button class = "btn, reduceProductQuantity" >Delete</button>
+    </div>
+    
+  </div>
+  <div class = "product">
+    
+    <div class = "productName">
+      <span>IronBubble-head</span>
+    </div>
+    <div>
+      <span class = "productPrice">$25.00</span>
+    </div>
+    <div class = "productQuantity"> 
+      <label class = "classLabel">QTY</label>
+      <input type="number" class = "inputValue" min = "0"></input>
+    </div>
+    <div>
+      <span class = "totalPrice">$0.00</span>
+    </div>
+    <div>
+      <button class = "btn, reduceProductQuantity" >Delete</button>
+    </div>
+    
+  </div>
+  <div class = "product">
+    
+    <div class = "productName">
+      <span>IronBubble-head</span>
+    </div>
+    <div>
+      <span class = "productPrice">$30.00</span>
+    </div>
+    <div class = "productQuantity"> 
+      <label class = "classLabel">QTY</label>
+      <input type="number" class = "inputValue" min = "0"></input>
+    </div>
+    <div>
+      <span class = "totalPrice">$0.00</span>
+    </div>
+    <div>
+      <button class = "btn, reduceProductQuantity" >Delete</button>
+    </div>
+    
+  </div>
+</div>
+  <div class = "calculateSum">
+    <button class = "btn, calculateSumBtn" id = "btn-Calculate" onclick="getTotalPrice">Calculate Prices</button>
+  </div>
+  <div class = "totalPriceOfAll">
+    <p>totalCart</p>
   </div>
   
   <script type="text/javascript" src="./js/index.js"></script>
